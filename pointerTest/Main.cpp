@@ -101,7 +101,7 @@ void FillArray(array_sizes *pArraySizes)
 		}
 	}
 }
-//prints prime numbers
+//prints the prime numbers
 void PrintNumbers(array_sizes *pArraySizes)
 {
 	unsigned *pt;
@@ -119,8 +119,8 @@ void PrintNumbers(array_sizes *pArraySizes)
 	cout << endl << endl;
 }
 
-//gets the difference between each of the primes first and second
-//second and third etc.
+//gets the difference between each of the primes. 
+//First and second, second and third etc.
 void DifferenceBetween(array_sizes *pArraySizes)
 {
 	unsigned *pTemp;
