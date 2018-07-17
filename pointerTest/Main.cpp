@@ -36,7 +36,7 @@ int main()
 
 	cout << "How many prime numbers would you like? ";
 	cin >> pArraySizes->arr_size;
-	//makes sure user enters number between 1 and 10000
+	//makes sure user enters a number between 1 and 10000
 	while (pArraySizes->arr_size < 1 || pArraySizes->arr_size > 10000)
 	{
 		cout << "Please enter a number between 1 and 10000: " << endl;
